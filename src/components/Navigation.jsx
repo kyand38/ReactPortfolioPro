@@ -1,25 +1,28 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 // import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume';
-
+import './navigation.css'
  function Navigation() {
+
+
+
     return (        
     <nav>
         <ul>
             <li>
-                <Link to='/aboutMe'>About Me</Link>
+                <NavLink to='/aboutMe'>About Me</NavLink>
             </li>
             <li>
-                <Link to='/portfolio'>Porfolio</Link>
+                <NavLink to='/portfolio'>Porfolio</NavLink>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
             </li>
             <li>
-                <Link to='/resume'>Resume</Link>
+                <NavLink to='/resume'>Resume</NavLink>
             </li>
         </ul>    
     </nav>

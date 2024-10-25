@@ -5,16 +5,23 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Welcome from './components/Welcome';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Header />
-      <AboutMe />
-      <Resume />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element= {<Welcome/>}/>
+          <Route path='/AboutMe' element= {<AboutMe/>}/>
+          <Route path='/Contact' element= {<Contact/>}/>
+          <Route path='/Portfolio' element= {<Portfolio/>}/>
+          <Route path='/Resume' element= {<Resume/>}/>
+        </Routes>
+        <Footer />
+      </Router>
     </>
   )
 }

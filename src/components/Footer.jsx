@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className="bg-dark text-light py-4">
+        <footer className="border-top border-end border-info bg-dark text-light py-4">
             <div className="container text-center">
                 <p>© 2024 Kyle Anderson. All Rights Reserved.</p>
                 <div className="d-flex justify-content-center">
