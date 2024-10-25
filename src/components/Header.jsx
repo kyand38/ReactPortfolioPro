@@ -1,27 +1,18 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
+import Navigation from './Navigation'
+
 
 
 function Header() {
-    const name = 'Kyle Anderson'
+    const name = 'Kyle Anderson';
     return (
-    <div>
-            <header>
-                <h1>{name}</h1>
-                <ul>
-                    <li>
-                        <Link>About Me</Link>
-                    </li>
-                    <li>
-                        <Link>Porfolio</Link>
-                    </li>
-                    <li>
-                        <Link>Contact</Link>
-                    </li>
-                    <li>
-                        <Link>Resume</Link>
-                    </li>
-                </ul>
-            </header>
-    </div>
-    )
+        <header className="bg-light text-dark py-4">
+            <div className="container d-flex justify-content-between align-items-center">
+                <h1 className="m-0">{name}</h1>
+                {/* <Navigation/>                */}
+            </div>    
+        </header>
+    );
 };
+
+export default Header;
