@@ -7,15 +7,15 @@ function AboutMe () {
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center mb-4 mb-md-0">
                         <img 
-                            src=""
+                            src="src\assets\images\myDumbFace_enhanced.png"
                             alt="Image of Kyle Anderson"
-                            className="img-fluid rounded-circle border border-3 border-primary shadow-sm"
+                            className="img-fluid rounded-circle border border-3 border-info shadow-sm"
                         />
                     </div>
                     <div className="col-md-8">
                         <div className="p-4 bg-white rounded shadow-sm">
                             <p className="text-dark mb-0">
-                                I found myself seeking new challenges that pushed me to think more creatively and strategically. That’s when I discovered coding. Recently, I completed a coding boot camp, and I’m excited to transition into this dynamic and fast-paced industry. I’m eager to bring my passion for building and problem-solving into the tech world, where I can continue to learn, grow, and make an impact with code.
+                            Welcome! I’m a dedicated developer with a strong foundation in full-stack development, enriched by my background in manufacturing, where I specialized in efficiency and process improvement. Now, my focus is on building efficient, user-centric applications using modern tech like React, Node.js, and TypeScript. I’m always up for a challenge, whether it’s optimizing code, enhancing UX, or diving into a new technology to deliver top results. Let’s create something impactful together!
                             </p>
                         </div>
                     </div>

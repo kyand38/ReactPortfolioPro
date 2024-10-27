@@ -1,8 +1,22 @@
-
-
-import React from 'react';
+import React, { useState } from 'react';
 
 function Contact() {
+  // State to track empty fields
+  const [errors, setErrors] = useState({
+    name: false,
+    email: false,
+    message: false,
+  });
+
+  // Handle onBlur event to check for empty input
+  const handleBlur = (e) => {
+    const { id, value } = e.target;
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      [id]: value.trim() === '', // Set true if field is empty
+    }));
+  };
+
   return (
     <section className="bg-dark text-light py-5">
       <div className="container">
@@ -16,10 +30,14 @@ function Contact() {
                   <label htmlFor="name" className="text-dark">Name</label>
                   <input
                     type="text"
-                    className="form-control border-info"
+                    className={`form-control border-info ${errors.name ? 'border-danger' : ''}`}
                     id="name"
                     placeholder="Enter your name"
+                    onBlur={handleBlur} // Add onBlur event
                   />
+                  {errors.name && (
+                    <small className="text-danger">Please enter your name</small>
+                  )}
                 </div>
 
                 {/* Email Field */}
@@ -27,24 +45,32 @@ function Contact() {
                   <label htmlFor="email" className="text-dark">Email</label>
                   <input
                     type="email"
-                    className="form-control border-info"
+                    className={`form-control border-info ${errors.email ? 'border-danger' : ''}`}
                     id="email"
                     placeholder="Enter your email"
+                    onBlur={handleBlur} // Add onBlur event
                   />
+                  {errors.email && (
+                    <small className="text-danger">Please enter a valid email</small>
+                  )}
                 </div>
 
                 {/* Message Field */}
                 <div className="form-group mb-3">
                   <label htmlFor="message" className="text-dark">Message</label>
                   <textarea
-                    className="form-control border-info"
+                    className={`form-control border-info ${errors.message ? 'border-danger' : ''}`}
                     id="message"
                     rows="4"
                     placeholder="Enter your message"
+                    onBlur={handleBlur}
                   ></textarea>
+                  {errors.message && (
+                    <small className="text-danger">Please enter a message</small>
+                  )}
                 </div>
 
-                {/* Submit Button */}
+               
                 <div className="text-center">
                   <button type="submit" className="btn btn-info px-5">
                     Send Message
