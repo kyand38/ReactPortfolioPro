@@ -4,10 +4,6 @@
     
 };
 
-body {
-    background-color: #343a40;
-}
-
 li {
     display: flex;
     justify-content: space-around;

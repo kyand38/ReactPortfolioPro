@@ -17,7 +17,7 @@ import '../styles/navigation.css'
                 <NavLink to='/aboutMe' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>About Me</NavLink>
             </li>
             <li>
-                <NavLink to='/portfolio' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Portfolio</NavLink>
+                <NavLink to='/project' className={({ isActive, isPending }) => isActive || window.location.pathname === "Portfolio" ? "active nav-item" : "nav-item"}>Portfolio</NavLink>
             </li>
             <li>
                 <NavLink to='/contact' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Contact</NavLink>

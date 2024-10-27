@@ -8,7 +8,7 @@ const Resume = () => {
       <div className="bg-dark p-4 rounded">
         {/* Display the PDF in an iframe */}
         <iframe
-          src="src\assets\resume.pdf" // Replace with the actual path to your PDF file
+          src="src/assets/resume.pdf" // Replace with the actual path to your PDF file
           title="Resume"
           width="100%"
           height="600px"
