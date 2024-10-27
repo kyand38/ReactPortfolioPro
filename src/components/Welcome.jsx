@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div
       style={{
-        backgroundImage: `url('/src/assets/images/welcome.png')`, // Path to your image
+        backgroundImage: `url('/images/welcome.png')`, // Path to your image
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',

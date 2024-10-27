@@ -8,7 +8,7 @@ function AboutMe () {
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center mb-4 mb-md-0">
                         <img 
-                            src="src\assets\images\myDumbFace_enhanced.png"
+                            src="/images/myDumbFace_enhanced.png"
                             alt="Image of Kyle Anderson"
                             className="img-fluid rounded-circle border border-3 border-info shadow-sm"
                         />

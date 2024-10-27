@@ -8,14 +8,14 @@ const Resume = () => {
       <div className="bg-dark p-4 rounded">
         {/* Display the PDF in an iframe */}
         <iframe
-          src="src/assets/resume.pdf"
+          src="/assets/resume.pdf"
           title="Resume"
           width="100%"
           height="600px"
           className="border-info"
         ></iframe>
 
-        {/* Optional Download Button */}
+        {/* Download Button */}
         <div className="mt-3">
           <a
             href="/path/to/your-resume.pdf"

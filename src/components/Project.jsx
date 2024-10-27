@@ -5,37 +5,37 @@ const Portfolio = () => {
     const projects = [
       {
         title: 'WorkFlow-Wizard',
-        imageUrl: 'src/assets/images/wizard.png', // Add the path to your image
+        imageUrl: '/images/wizard.png', // Add the path to your image
         appLink: 'https://github.com/kyand38/WorkFlow-Wizard', // Deployed application link
         repoLink: 'https://github.com/kyand38/WorkFlow-Wizard',
       },
       {
         title: 'README-Factory',
-        imageUrl: 'src/assets/images/README1_optimized.png', // Add the path to your image appLink
+        imageUrl: '/images/README1_optimized.png', // Add the path to your image appLink
         appLink: 'https://github.com/kyand38/README-Factory',
         repoLink: 'https://github.com/kyand38/README-Factory',
       },
       {
         title: 'Simple Contact Form',
-        imageUrl: 'src/assets/images/smiles.png', // Add the path to your image
+        imageUrl: '/images/smiles.png', // Add the path to your image
         appLink: 'https://kyand38.github.io/HappyLanding/', // Deployed application link
         repoLink: 'https://github.com/kyand38/HappyLanding',
       },
       {
         title: 'Digital-Postcard',
-        imageUrl: 'src/assets/images/postCard_optimized.png', // Add the path to your image
+        imageUrl: '/images/postCard_optimized.png', // Add the path to your image
         appLink: 'https://kyand38.github.io/Digital-Postcard/', // Deployed application link
         repoLink: 'https://github.com/kyand38/Digital-Postcard',
       },
       {
         title: 'RideEngineer',
-        imageUrl: 'src/assets/images/vehicles.png', // Add the path to your image
+        imageUrl: '/images/vehicles.png', // Add the path to your image
         appLink: 'https://github.com/kyand38/RideEngineer', // Deployed application link
         repoLink: 'https://github.com/kyand38/RideEngineer',
       },
       {
         title: 'ReactPortfolioPro',
-        imageUrl: 'src/assets/images/ReactPorfolio_optimized.png',
+        imageUrl: '/images/ReactPorfolio_optimized.png',
         appLink: 'https://github.com/kyand38/ReactPortfolioPro',
         repoLink: 'https://github.com/kyand38/ReactPortfolioPro',
       },
