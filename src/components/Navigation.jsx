@@ -6,11 +6,11 @@ function Navigation() {
     return (
         <nav className='container d-flex justify-content-end'>
             <ul className="nav-links ">
-                {/* <li className='nav-item'>
-                <NavLink to="/" className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Home</NavLink>
-            </li> */}
+                <li className='nav-item'>
+                <NavLink to="/" className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}></NavLink>
+            </li>
                 <li>
-                    <NavLink to='/' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>About Me</NavLink>
+                    <NavLink to='/aboutme' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>About Me</NavLink>
                 </li>
                 <li>
                     <NavLink to='/project' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>Portfolio</NavLink>
