@@ -1,14 +1,16 @@
 .active {
+    box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.6);
     color: #00FFFF;
-    font-weight: 900;
-    
-};
+    font-weight: 420;
+
+}
+
+;
 
 li {
     display: flex;
     justify-content: space-around;
     list-style: none;
-};
-/* .list-items{
-    margin-right: 10px;
-    }; */
+}
+
+;

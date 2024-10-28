@@ -6,7 +6,7 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,11 +15,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Welcome />} />
+          <Route path="/" element={<Navigate to="/AboutMe" replace />} />
           <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Portfolio" element={<Navigate to="/AboutMe" replace />} /> {/* Redirect to AboutMe */}
           <Route path="/Project" element={<Portfolio />} /> {/* Main Portfolio */}
+          <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
         <Footer />

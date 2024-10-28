@@ -1,33 +1,29 @@
 import React from "react";
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/navigation.css'
-// import AboutMe from './components/AboutMe';
-// import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
-// import Resume from './components/Resume';
- function Navigation() {
+function Navigation() {
 
-    return (        
-    <nav>
-        <ul className="nav-links">
-            <li className='nav-item'>
+    return (
+        <nav className='container d-flex justify-content-end'>
+            <ul className="nav-links ">
+                {/* <li className='nav-item'>
                 <NavLink to="/" className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Home</NavLink>
-            </li>
-            <li>
-                <NavLink to='/aboutMe' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>About Me</NavLink>
-            </li>
-            <li>
-                <NavLink to='/project' className={({ isActive, isPending }) => isActive || window.location.pathname === "Portfolio" ? "active nav-item" : "nav-item"}>Portfolio</NavLink>
-            </li>
-            <li>
-                <NavLink to='/contact' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Contact</NavLink>
-            </li>
-            <li>
-                <NavLink to='/resume' className={({ isActive }) => isActive ? "active nav-item" : "nav-item"}>Resume</NavLink>
-            </li>
-        </ul>    
-    </nav>
+            </li> */}
+                <li>
+                    <NavLink to='/' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>About Me</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/project' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>Portfolio</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/contact' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>Contact</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/resume' className={({ isActive }) => isActive ? "active nav-item rounded" : "nav-item rounded"}>Resume</NavLink>
+                </li>
+            </ul>
+        </nav>
     );
- };
+};
 
 export default Navigation;

@@ -22,7 +22,7 @@ function Contact() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            <div className="p-4 border-top border-info rounded shadow-sm bg-light">
+            <div className="p-4 border-top border-info rounded shadow-sm bg-secondary">
               <h2 className="text-center text-info mb-4">Get in Touch</h2>
               <form>
                 {/* Name Field */}
@@ -70,7 +70,7 @@ function Contact() {
                   )}
                 </div>
 
-               
+
                 <div className="text-center">
                   <button type="submit" className="btn btn-info px-5">
                     Send Message
