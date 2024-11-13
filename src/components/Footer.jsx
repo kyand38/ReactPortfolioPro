@@ -26,7 +26,7 @@ function Footer() {
                         onMouseLeave={() => setIsHoveredGitHub(false)}>
                         <i className="fab fa-github text-info"></i> GitHub
                     </a>
-                    <a href="www.linkedin.com/in/kyle-anderson-595841338" target='_blank' rel="noopener noreferrer" className="text-info mx-3"
+                    <a href="https://www.linkedin.com/in/kyle-anderson-595841338" target='_blank' rel="noopener noreferrer" className="text-info mx-3"
                         style={getAnchorStyle(isHoveredLinkedIn)}
                         onMouseEnter={() => setIsHoveredLinkedIn(true)}
                         onMouseLeave={() => setIsHoveredLinkedIn(false)}>

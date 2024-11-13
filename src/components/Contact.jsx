@@ -51,7 +51,7 @@ function Contact() {
         console.log('SUCCESS!', response.status, response.text);
         alert('Thanks for your message! I look forward to reading it.'); // Show success alert
         setIsSent(true);
-        navigate('/profile'); // Redirect to the profile page
+        navigate('/Portfolio'); // Redirect to the portfolio page
       })
       .catch((err) => console.error('FAILED...', err));
   };
