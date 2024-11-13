@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate to="/AboutMe" replace />} />
+          <Route path="/" element={<Navigate to="/AboutMe" />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Project" element={<Portfolio />} /> {/* Main Portfolio */}
           <Route path="/Contact" element={<Contact />} />
