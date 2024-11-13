@@ -28,6 +28,7 @@ Open the application to view different sections, including About Me, Portfolio, 
 
 ## Credits:
 
+ - Emailjs
  - Vite
  - React
  - Netlify
