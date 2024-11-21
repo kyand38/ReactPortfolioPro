@@ -39,6 +39,12 @@ const Portfolio = () => {
       appLink: 'https://reactportfoliopro.netlify.app/',
       repoLink: 'https://github.com/kyand38/ReactPortfolioPro',
     },
+    {
+      title: 'Apollo-Graph-Reads',
+      imageUrl: '/images/AGRScreenshot.png',
+      appLink: 'https://apollo-8bcm.onrender.com/',
+      repoLink: 'https://github.com/kyand38/Apollo-Graph-Reads',
+    }
   ];
 
   return (
