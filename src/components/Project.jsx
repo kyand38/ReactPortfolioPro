@@ -50,7 +50,13 @@ const Portfolio = () => {
       imageUrl: '/images/AGRScreenshot.png',
       appLink: 'https://apollo-8bcm.onrender.com/',
       repoLink: 'https://github.com/kyand38/Apollo-Graph-Reads',
-    }
+    },
+    {
+      title: 'Trivia-Titans',
+      imageUrl: '/images/TriviaTitans.png',
+      appLink: 'https://trivia-titans.onrender.com',
+      repoLink: 'https://github.com/kyand38/Trivia-Titans',
+    },
   ];
 
   return (
