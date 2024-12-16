@@ -41,7 +41,7 @@ const Portfolio = () => {
     },
     {
       title: 'CodexX',
-      imageUrl: 'public/images/codexxImage.png',
+      imageUrl: '/images/codexxImage.png',
       appLink: 'https://codexx-kg79.onrender.com',
       repoLink: 'https://github.com/kyand38/CodexX',
     },
