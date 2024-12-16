@@ -22,7 +22,12 @@ const Card = ({ title, imageUrl, appLink, repoLink }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={imageUrl} alt={title} className="card-img-top" />
+      <img 
+      src={imageUrl} 
+      alt={title} 
+      className="card-img-top img-fluid w-100"
+      style={{ height: '400px', objectFit: 'fill' }}
+      />
 
       <div className="card-body text-center text-info">
         <h5>{title}</h5>

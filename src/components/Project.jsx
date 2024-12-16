@@ -40,6 +40,12 @@ const Portfolio = () => {
       repoLink: 'https://github.com/kyand38/ReactPortfolioPro',
     },
     {
+      title: 'CodexX',
+      imageUrl: 'public/images/codexxImage.png',
+      appLink: 'https://codexx-kg79.onrender.com',
+      repoLink: 'https://github.com/kyand38/CodexX',
+    },
+    {
       title: 'Apollo-Graph-Reads',
       imageUrl: '/images/AGRScreenshot.png',
       appLink: 'https://apollo-8bcm.onrender.com/',
