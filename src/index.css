@@ -17,18 +17,6 @@
   color: #0dcaf0;
 }
 
-/* .welcome {
-        background-image: url('/images/welcome.png');  
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 70vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: cyan;
-        font-size: 2rem;
-} */
 @media only screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -42,11 +30,8 @@
     color: #0dcaf0;
   }
 
-  /* .welcome {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 200px;
-
-  } */
+  .kyleStyle {
+    text-align: center;
+    padding-left: 33%;
+  }
 }
