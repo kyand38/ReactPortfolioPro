@@ -33,5 +33,6 @@
   .kyleStyle {
     text-align: center;
     padding-left: 33%;
+    box-shadow: none!important;
   }
 }
