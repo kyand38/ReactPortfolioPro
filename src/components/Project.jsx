@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       title: 'WorkFlow-Wizard',
       imageUrl: '/images/wizard.png',
-      appLink: 'hhttps://drive.google.com/file/d/1NfzJKM4aczJ76tInmfGUIh3Ey10eAxa0/view?usp=sharing',
+      appLink: 'https://drive.google.com/file/d/16kKZAIIUIUNkQzF40f_74kM5cuYek7_V/view?usp=sharing',
       repoLink: 'https://github.com/kyand38/WorkFlow-Wizard',
     },
     {
